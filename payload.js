@@ -24,7 +24,7 @@ var total = total.innerText;
 var subject = doc.getElementById("DERIVED_SSR_FC_SSR_CLASSNAME_LONG");
 var subject = subject.text;
 
-chrome.runtime.sendMessage(total);
+//chrome.runtime.sendMessage(total);
 
 
 var result = ""+subject+"\n";
@@ -41,7 +41,7 @@ for (i=0;i<total;i++){
 }
 
 
-chrome.runtime.sendMessage(result);
+//chrome.runtime.sendMessage(result);
 
 download(subject+".csv",result);
 
