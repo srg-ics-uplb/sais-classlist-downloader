@@ -1,5 +1,5 @@
 {
-   "name": "SAIS Classlist Extractor",
+   "name": "SAIS Classlist Downloader",
    "version": "1.0",
    "description": "Downloads the classlist from SAIS in CSV format by jchermocilal@up.edu.ph",
    "permissions": ["storage"],
