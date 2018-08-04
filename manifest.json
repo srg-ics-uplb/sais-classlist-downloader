@@ -1,0 +1,22 @@
+{
+   "name": "SAIS Classlist Extractor",
+   "version": "1.0",
+   "description": "Downloads the classlist from SAIS in CSV format by jchermocilal@up.edu.ph",
+   "permissions": ["storage"],
+   "author": "jchermocilla@up.edu.ph",
+   "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+
+	"permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "manifest_version": 2
+}
